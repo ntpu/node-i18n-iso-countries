@@ -1,5 +1,7 @@
-[![Build Status](https://secure.travis-ci.org/michaelwittig/node-i18n-iso-countries.png)](http://travis-ci.org/michaelwittig/node-i18n-iso-countries)
-[![NPM version](https://badge.fury.io/js/i18n-iso-countries.png)](http://badge.fury.io/js/i18n-iso-countries)
+[![npm version](https://badge.fury.io/js/%40ntpu%2Fi18n-iso-countries.svg)](https://badge.fury.io/js/%40ntpu%2Fi18n-iso-countries)
+
+# introduction
+The module of node-i18n-iso-countries is awesome except that it does not support the traditional chinese. So, I forked the code from [the original repo](https://github.com/michaelwittig/node-i18n-iso-countries) and made minor modification to support the traditional chinese.
 
 # i18n-iso-countries
 
@@ -95,7 +97,8 @@ console.log(countries.getNames("en")); // { 'AF': 'Afghanistan', 'AL': 'Albania'
 -   `uk`: Ukrainian
 -   `ur`: Urdu
 -   `uz`: Uzbek
--   `zh`: Chinese
+-   `zh`: Chinese (Simplified)
+-   `tw`: Chinese (Traditional)
 -   `vi`: Vietnamese
 
 [List of ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
